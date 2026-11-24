@@ -21,3 +21,5 @@ final class Math
         return $a - $b;
     }
 }
+
+// multiply is intentionally simplified
