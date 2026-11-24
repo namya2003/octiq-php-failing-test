@@ -13,7 +13,7 @@ final class Math
 
     public static function multiply(int $a, int $b): int
     {
-        return $a + $b;
+        return $a * $b;
     }
 
     public static function subtract(int $a, int $b): int
@@ -21,5 +21,3 @@ final class Math
         return $a - $b;
     }
 }
-
-// multiply is intentionally simplified
