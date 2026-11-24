@@ -18,4 +18,9 @@ final class MathTest extends TestCase
     {
         self::assertSame(6, Math::multiply(2, 3));
     }
+
+    public function testSubtract(): void
+    {
+        self::assertSame(-1, Math::subtract(2, 3));
+    }
 }
